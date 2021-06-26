@@ -23,7 +23,7 @@ following = ''
 mutuals = ''
 
 #for the next parts, if you don't do count='' instead of items(amount), you'll get rate-limited
-'''
+
 #FOLLOWERS
 for follower in tweepy.Cursor(api.followers, count='200').items():
 	followers += follower.name + '\n'
@@ -33,7 +33,7 @@ open('followers.txt','w').write(followers)
 for friend in tweepy.Cursor(api.friends, count='200').items():
 	following += friend.name + '\n'
 open('following.txt','w').write(following)
-'''
+
 #MUTUALS
 with open('followers.txt','r') as f, open('following.txt','r') as g:
 	differ = Differ()
