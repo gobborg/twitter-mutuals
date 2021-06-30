@@ -1,9 +1,9 @@
-##compare the mutuals of followed and following on twitter
-#two ways to compare the mutuals of who follows you on twitter and whom you follow on twitter
+## compare the mutuals of followed and following on twitter
+# two ways to compare the mutuals of who follows you on twitter and whom you follow on twitter
 
 You need:
-*tweepy python
-*twitter developer keys (I set up mine as a standalone app)
+* tweepy python
+* twitter developer keys (I set up mine as a standalone app)
 
 Make 3 files in the same directory as your script file: followers.txt, following.txt, and mutuals.txt. These files can be empty. Whatever is in them will be overwritten.
 
