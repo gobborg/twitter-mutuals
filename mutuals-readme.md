@@ -1,5 +1,5 @@
-## compare the mutuals of followed and following on twitter
-# two ways to compare the mutuals of who follows you on twitter and whom you follow on twitter
+# compare the mutuals of followed and following on twitter
+## two ways to compare the mutuals of who follows you on twitter and whom you follow on twitter
 
 You need:
 * tweepy python
